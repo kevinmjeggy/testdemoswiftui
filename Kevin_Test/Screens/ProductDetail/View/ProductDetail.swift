@@ -108,7 +108,7 @@ private struct CustomNavigationView: View {
         HStack {
             Button(action: { dismiss() }, label: {
                 Image("Arrow").resizable()
-                    .frame(width: 24, height: 24, alignment: .center)
+                    .frame(width: 24, height: 24, alignment: .leading)
             }).padding(.leading, 16)
             Spacer()
             Button(action: {
