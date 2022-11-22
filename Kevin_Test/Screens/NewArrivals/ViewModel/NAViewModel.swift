@@ -8,7 +8,6 @@
 import Foundation
 import SwiftyJSON
 
-@MainActor
 class NAViewModel: ObservableObject {
     var productArray = [ProductData]()
     @Published var shoppingList = [ProductData]()
